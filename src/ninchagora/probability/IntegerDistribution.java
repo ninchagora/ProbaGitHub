@@ -1,5 +1,8 @@
 package ninchagora.probability;
 
+/**
+ * TODO: add JavaDoc.
+ */
 public class IntegerDistribution {
 	/**
 	 * Probability function (unnormalized):<ul>
