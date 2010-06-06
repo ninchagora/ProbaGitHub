@@ -1,9 +1,10 @@
 package ninchagora.probability;
 
 /**
- * TODO: add JavaDoc.
+ * Generates random integers with given distribution (specified by a probability density function). 
  */
 public class IntegerDistribution {
+	
 	/**
 	 * Probability function (unnormalized):<ul>
 	 * <li>F[i] &lt;= F[i+1]</li>
