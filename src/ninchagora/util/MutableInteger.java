@@ -37,6 +37,27 @@ public class MutableInteger {
 		this.value -= value;
 	}
 
+	public int getAndIncrement() {
+		return value++;
+	}
+	
+	public int incrementAndGet() {
+		return ++value;
+	}
+	
+	public int getAndDecrement() {
+		return value--;
+	}
+	
+	public int decrementAndGet() {
+		return --value;
+	}
+	
+	public MutableInteger setTo(int value) {
+		set(value);
+		return this;
+	}
+	
 	@Override
 	public String toString() {
 		return Integer.toString(value);
