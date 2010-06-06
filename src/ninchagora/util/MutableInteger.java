@@ -2,6 +2,15 @@
 package ninchagora.util;
 
 public class MutableInteger {
+	public MutableInteger() {
+		this(0);
+	}
+	
+	public MutableInteger(int value) {
+		super();
+		this.value = value;
+	}
+
 	private int value;
 	
 	public void inc() {
